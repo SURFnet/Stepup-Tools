@@ -1,0 +1,21 @@
+{
+    "name": "surfnet/stepup-tools",
+    "description": "Tooling for Stepup",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Pieter van der Meulen",
+            "email": "pieter.vanderMeulen@surfnet.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Surfnet\\StepupTools\\": "src" }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^1.15",
+        "doctrine/dbal": "^2.5",
+        "symfony/console": "^2.7",
+        "psr/log": "^1.0"
+    }
+}

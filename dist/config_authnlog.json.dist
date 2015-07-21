@@ -1,0 +1,9 @@
+{
+  "database": {
+    "driver":"pdo_mysql",
+    "dbname":"logs",
+    "user":"root",
+    "password": "password"
+  },
+  "stat_file": "stat.json"
+}
